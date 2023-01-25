@@ -938,6 +938,11 @@ INPUT ./Figures/fig1.png
 INPUT Figures/fig1.png
 INPUT ./Figures/fig1.png
 INPUT ./Figures/fig1.png
+INPUT ./Figures/fig2.png
+INPUT ./Figures/fig2.png
+INPUT Figures/fig2.png
+INPUT ./Figures/fig2.png
+INPUT ./Figures/fig2.png
 INPUT ./Figures/ondas_rayleigh.png
 INPUT ./Figures/ondas_rayleigh.png
 INPUT Figures/ondas_rayleigh.png
