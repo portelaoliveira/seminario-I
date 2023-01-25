@@ -1,0 +1,104 @@
+\begin{thebibliography}{}
+\itemsep0pt
+
+\bibitem[Berbellini et~al., 2019]{berbellini2019constraining}
+Berbellini, A., M. Schimmel, A.~M. Ferreira, and A. Morelli,  2019,
+  Constraining s-wave velocity using rayleigh wave ellipticity from
+  polarization analysis of seismic noise: Geophysical Journal International,
+  {\bf 216}, 1817--1830.
+
+\bibitem[Bonilla et~al., 1997]{bonilla1997site}
+Bonilla, L.~F., J.~H. Steidl, G.~T. Lindley, A.~G. Tumarkin, and R.~J.
+  Archuleta,  1997, Site amplification in the san fernando valley, california:
+  variability of site-effect estimation using the s-wave, coda, and h/v
+  methods: Bulletin of the Seismological Society of America, {\bf 87},
+  710--730.
+
+\bibitem[Bonnefoy-Claudet et~al., 2006]{bonnefoy2006nature}
+Bonnefoy-Claudet, S., F. Cotton, and P.-Y. Bard,  2006, The nature of noise
+  wavefield and its applications for site effects studies: A literature review:
+  Earth-Science Reviews, {\bf 79}, 205--227.
+
+\bibitem[DE~OLIVEIRA, 2009]{de2009filtragem}
+DE~OLIVEIRA, V.~Q.,  2009, Filtragem de eventos lineares nos dados sismicos
+  utilizando derivada direcional bidimensional.
+
+\bibitem[Field and Jacob, 1993]{field1993theoretical}
+Field, E., and K. Jacob,  1993, The theoretical response of sedimentary layers
+  to ambient seismic noise: Geophysical research letters, {\bf 20}, 2925--2928.
+
+\bibitem[Herrmann, 2013]{herrmann2013computer}
+Herrmann, R.~B.,  2013, Computer programs in seismology: An evolving tool for
+  instruction and research: Seismological Research Letters, {\bf 84},
+  1081--1088.
+
+\bibitem[Konno and Ohmachi, 1998]{konno1998ground}
+Konno, K., and T. Ohmachi,  1998, Ground-motion characteristics estimated from
+  spectral ratio between horizontal and vertical components of microtremor:
+  Bulletin of the Seismological Society of America, {\bf 88}, 228--241.
+
+\bibitem[Koper et~al., 2010]{koper2010composition}
+Koper, K.~D., K. Seats, and H. Benz,  2010, On the composition of earth’s
+  short-period seismic noise field: Bulletin of the Seismological Society of
+  America, {\bf 100}, 606--617.
+
+\bibitem[Lin and Schmandt, 2014]{lin2014upper}
+Lin, F.-C., and B. Schmandt,  2014, Upper crustal azimuthal anisotropy across
+  the contiguous us determined by rayleigh wave ellipticity: Geophysical
+  Research Letters, {\bf 41}, 8301--8307.
+
+\bibitem[Lin et~al., 2014]{lin20143}
+Lin, F.-C., V.~C. Tsai, and B. Schmandt,  2014, 3-d crustal structure of the
+  western united states: application of rayleigh-wave ellipticity extracted
+  from noise cross-correlations: Geophysical Journal International, {\bf 198},
+  656--670.
+
+\bibitem[Menke, 1989]{menke1989geophysical}
+Menke, W.,  1989, Geophysical data analysis: Discrete inverse theory, volume 45
+  of: International geophysics series.
+
+\bibitem[Nakamura, 1989]{nakamura1989method}
+Nakamura, Y.,  1989, A method for dynamic characteristics estimation of
+  subsurface using microtremor on the ground surface: Railway Technical
+  Research Institute, Quarterly Reports, {\bf 30}.
+
+\bibitem[Parolai et~al., 2002]{parolai2002new}
+Parolai, S., P. Bormann, and C. Milkereit,  2002, New relationships between vs,
+  thickness of sediments, and resonance frequency calculated by the h/v ratio
+  of seismic noise for the cologne area (germany): Bulletin of the
+  seismological society of America, {\bf 92}, 2521--2527.
+
+\bibitem[Poggi and F{\"a}h, 2010]{poggi2010estimating}
+Poggi, V., and D. F{\"a}h,  2010, Estimating rayleigh wave particle motion from
+  three-component array analysis of ambient vibrations: Geophysical Journal
+  International, {\bf 180}, 251--267.
+
+\bibitem[Riepl et~al., 1998]{riepl1998detailed}
+Riepl, J., P.-Y. Bard, D. Hatzfeld, C. Papaioannou, and S. Nechtschein,  1998,
+  Detailed evaluation of site-response estimation methods across and along the
+  sedimentary valley of volvi (euro-seistest): Bulletin of the Seismological
+  Society of America, {\bf 88}, 488--502.
+
+\bibitem[Tanimoto and Rivera, 2008]{tanimoto2008zh}
+Tanimoto, T., and L. Rivera,  2008, The zh ratio method for long-period seismic
+  data: sensitivity kernels and observational techniques: Geophysical Journal
+  International, {\bf 172}, 187--198.
+
+\bibitem[Ullah et~al., 2016]{ullah2016thickness}
+Ullah, I., R.~L. Prado, and Y. Hussain,  2016, Thickness and shear wave
+  velocity measurement of sediment package at meteorite impact crater site of
+  colonia, sao paulo city, brazil: VII SimBGf.
+
+\bibitem[Wathelet et~al., 2008]{wathelet2008array}
+Wathelet, M., D. Jongmans, M. Ohrnberger, and S. Bonnefoy-Claudet,  2008, Array
+  performances for ambient vibrations on a shallow structure and consequences
+  over v s inversion: Journal of Seismology, {\bf 12}, 1--19.
+
+\bibitem[Workman et~al., 2017]{workman2017determination}
+Workman, E., F.-C. Lin, and K.~D. Koper,  2017, Determination of rayleigh wave
+  ellipticity across the earthscope transportable array using single-station
+  and array-based processing of ambient seismic noise: Geophysical Supplements
+  to the Monthly Notices of the Royal Astronomical Society, {\bf 208},
+  234--245.
+
+\end{thebibliography}
