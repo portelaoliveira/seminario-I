@@ -119,7 +119,6 @@ A profundidade total, estimada por investigação de reflexão sísmica (Fig. \r
 
 \begin{figure}[!hbtp]
   \begin{center}
-  
   \includegraphics[scale=0.8]{Figures/fig1.png}
   \end{center}
   \caption{Localização (esquerda) e mapa geológico da estrutura da Colônia. As linhas grossas pretas indicam os locais dos testes MASW, enquanto as linhas finas indicam a linha de reflexão. (Modificado de \citealp{riccomini2011colonia}).
@@ -175,63 +174,6 @@ Onde $d_{obs}^i$ são os dados observados, $g^i(m)$ são valores teóricos de el
 
 O primeiro termo é o desajuste entre os dados observados e previstos, o segundo é o termo de regularização. $A$ é um fator de escala determinado por tentativa e erro: se $A$ for muito pequeno, os dados observados serão superajustados, enquanto o modelo resultante mostrará descontinuidades muito irrealistas. Por outro lado, se $A$ for muito grande, o modelo será plano e os dados observados não serão bem ajustados. Um bom fator $A$ produz modelos realistas enquanto ajusta bem os dados observados. 
 
-%\subsection{Sample Collection}
-
-%\subsection{Measuring Permittivity}
-
-%\subsection{GPR Data Acquisition}
-
-%\begin{figure}[!hbtp]
-%\begin{center}
-
-%\includegraphics[scale=0.5]{Figures/Fig1.png}
-%\end{center}
-%\caption{Acquisition with the 2.6 GHz antenna (GPR SIR 3000, Geophysical Survey System Inc - GSSI).}
-%\label{acquisition}
-%\end{figure}
-
-% -----------------------------------------------
-
-%\subsection{Data Processing}
-
-%\emph{Header Gain Removal}
-
-%\clearpage
-
-
-%\begin{table}[!hbtp]
-%\caption{Dielectric characteristics of common materials. Modified from \cite{alHagrey2007}, \cite{torgovnikov1993dielectric} and \cite{asprion1998ground}.}
-%\label{table_alHagrey}
-%\begin{tabular}{@{}lccc@{}}
-%\toprule
-%Material         & $\epsilon_{r}$ & $\sigma$ (mS m$^{-1}$) & $v$ (m ns$^{-1}$) \\ \midrule
-%Sandy-loamy soil & 4 - 30         & 0.1 - 1000             & 0.05 - 0.18       \\
-%Wood cellulose   & 4.5 - 22       & 0.24                   & 0.064 - 0.141     \\
-%Fresh Water      & 81             & 0.1 - 10               & 0.03              \\
-%Air              & 1              & 0                      & 0.3               \\ \bottomrule
-%\end{tabular}
-%\end{table}
-
-%\begin{table*}[!hbtp]
-%\caption{Permittivity values used in forward models.}
-%\label{valores_modelosintetico}
-%\centering
-%\begin{tabular}{@{}ccc@{}}
-%\toprule
-%Model & Root Permittivity & Volumetric Root Water Content (\%) \\ \midrule
-%1    & 2                   & 5                                  \\
-%2    & 4                   & 15                                 \\
-%3    & 8                   & 22                                 \\
-%4    & 10                  & 28                                 \\
-%5    & 15                  & 34                                 \\
-%6    & 20                  & 46                                 \\
-%7    & 25                  & 52                                 \\
-%8    & 30                  & 60                                 \\
-%9    & 80                  &  *\footnotemark[1]                                  \\ \bottomrule
-%\end{tabular}
-%\end{table*}
-%\footnotemark[1]{Value used as an extrapolation to visualize how the model would behave, since the maximum saturation value is 70\%, which generates $\epsilon_{r} = 40$ \citep{guo2013cforward, hirano2009}.}
-
 % -----------------------------------------------
 
 \section{Resultados}
@@ -243,46 +185,58 @@ Além disso, adquirir MASW e gravação de ruído ambiental no mesmo local pode 
 
 Para a estimativa da curva H/V, precisaram do registro do ruído ambiental em três componentes (dois horizontais e um vertical) que obtiveram a partir de 7 medições do ruído ambiental em 6 locais diferentes mostrados na (Fig. \ref{stations}) com um sismômetro de 3 componentes de banda larga \textit{Nanometrics Trillium} compacto de 120 s. Realizaram a gravação do ruído ambiental por 5 horas em cinco locais, enquanto que nas estações CLN4 e CLN5 a gravação foi de 24 horas (Fig. \ref{stations}). A gravação foi aumentada para evitar ruído cultural, pois havia atividade agrícola próxima.
 
-A gravação do ruído ambiental foi feita seguindo as diretrizes desenvolvidas nas recomendações do \cite{acerra2004guidelines}. Para obter a frequência fundamental do local foi processada uma janela de gravação de uma hora e seguiu-se a condição de confiabilidade proposta pelo \cite{acerra2004guidelines} para a curva H/V e pico, (Fig. \ref{hv_curva}) indica as curvas H/V de todas as estações.
+A gravação do ruído ambiental foi feita seguindo as diretrizes desenvolvidas nas recomendações do \cite{acerra2004guidelines}. Para obter a frequência fundamental do local, foi processada uma janela de gravação de uma hora e seguiu-se a condição de confiabilidade proposta pelo \cite{acerra2004guidelines} para a curva H/V e pico, (Fig. \ref{hv_curva}) indica as curvas H/V de todas as estações. A curva de dispersão recuperada do MASW analisando todos os dados (Fig. \ref{curva_disp}) é obtida apenas em uma banda de frequência estreita (1.1 - 3.8 Hz) Fig. \ref{curva_disp}d. O levantamento MASW desses dois locais diferentes A e B (Fig. \ref{geologia}) são analisados, a imagem de dispersão das matrizes MASW é fornecida na Fig. \ref{curva_disp}a, b, c. Em A, os dados da fonte ativa não fornecem uma imagem de dispersão clara, por isso são omitidos da análise. A curva de dispersão exponencial obtida a partir dos dados é ampliada (para uma visibilidade clara na escala vertical) (Fig. \ref{curva_disp}d).
+
+
+\begin{table}[!hbtp]
+\caption{Parâmetros de aquisição MASW para fonte ativa e passiva.}
+\label{table_parameters}
+\centering
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Tipo de MASW         & Ativo & Passivo &  \\ \midrule
+Fonte & Marreta 10 Kg         & Ruído cultural                    \\
+Deslocamento mínimo (m)   & 1, 5, 6       &                         \\
+Intervalo entre Geofones (m)      & 1             & 1                             \\
+Número de geofones             & 96              & 96                                    \\ 
+Tamanho do arranjo               & 95              & 95                                   \\ 
+Intervalo de amostragem (ms)              & 0.5              &                                      \\ 
+Duração do(s) registro(s)              & 1              & 15, 20, 30                                  \\ \bottomrule
+\end{tabular}
+\end{table}
 
 \begin{figure}[!hbtp]
   \begin{center}
   
-  \includegraphics[scale=0.5]{Figures/fig3.png}
+  \includegraphics[scale=0.7]{Figures/fig3.png}
   \end{center}
-  \caption{Comportamento das ondas Rayleigh na superfície terrestre \citep{de2009filtragem}.}
+  \caption{Mapa de contorno topográfico (intervalo de contorno 5m) da estrutura de Colônia. Os triângulos indicam a localização das estações usadas para gravação de ruído ambiental. CLN4 e CLN5 estão no mesmo local, por isso é mostrado apenas CLN4. (A barra de legenda à direita mostra a escala dos contornos em m).}
   \label{stations}
 \end{figure}
-\newpage
 
 \begin{figure}[!hbtp]
   \begin{center}
   
-  \includegraphics[scale=0.5]{Figures/fig4.png}
+  \includegraphics[scale=0.6]{Figures/fig4.png}
   \end{center}
-  \caption{Comportamento das ondas Rayleigh na superfície terrestre \citep{de2009filtragem}.}
+  \caption{Mostra as imagens da curva de dispersão dos registros experimentais do local B (a velocidade nas imagens da curva de dispersão é em m/s). (b) Fonte passiva das imagens da curva de dispersão no local B (c). Imagens da curva de dispersão da fonte passiva do local (d). A curva de dispersão experimental obtida dos dados em Colônia é mostrada na parte inferior (usada para estimativa de tendência vs).}
   \label{curva_disp}
 \end{figure}
-\newpage
 
 \begin{figure}[!hbtp]
   \begin{center}
   
-  \includegraphics[scale=0.5]{Figures/fig5.png}
+  \includegraphics[scale=0.75]{Figures/fig5.png}
   \end{center}
-  \caption{Comportamento das ondas Rayleigh na superfície terrestre \citep{de2009filtragem}.}
+  \caption{Curvas H/V de todas as estações. Todas as curvas são obtidas cumprindo os critérios para curva clara e pico, a linha em negrito é a curva H/V, as linhas estreitas inferior e superior indicam o limite superior e inferior do desvio padrão.}
   \label{hv_curva}
 \end{figure}
 \newpage
-
-%\subsection{Experimental Data}
 
 % -----------------------------------------------
 
 \section{Discussões}
 
-
-%\subsection{Experimental Data}
 
 % -----------------------------------------------
 
