@@ -233,15 +233,43 @@ Duração do(s) registro(s)              & 1              & 15, 20, 30          
 \end{figure}
 \newpage
 
+\subsection{Inversão para recuperação da velocidade da onda de cisalhamento}
+
+Para realizar a inversão da elipticidade, utilizou-se o algoritmo de vizinhança (NA) \citep{wathelet2008array} que é um método livre de derivadas em comparação com o método linearizado \citep{menke1989geophysical}. NA pertence à família de estratégias de inversão de otimização global, como algoritmo genético. \cite{sambridge2002monte} reviu em detalhes o aspecto teórico e a aplicação dessa abordagem de inversão. A NA é considerada uma estratégia de inversão melhor porque tem vantagem sobre as outras abordagens, pois utiliza todas as informações do modelo anterior para amostrar o novo modelo \citep{sambridge1999geophysical}. O desajuste é estimado usando a eq.(~\ref{eq:desajuste})  
+
+\begin{equation}\label{eq:desajuste}
+  misfit_{Ellipticity} = \sqrt{\frac{1}{N} \sum_{i=1}^{N}\left(\frac{log(Emod) - log(Exp)}{\sigma_i^2}\right)^2} 
+\end{equation}
+
+Onde $Exp$ é uma curva de elipticidade experimental na frequência $f$, $Emod$ é a curva de elipticidade modelada na frequência $f$, $\sigma_i$ são os erros de medição associados e $N$ é o número da amostra de frequência.
+
+A curva H/V é considerada como a curva de elipse da onda Rayleigh, que é empregada em quase todos os algoritmos de inversão de curva H/V, porém a curva H/V não é a verdadeira representação da elipticidade da onda Rayleigh, pois ambas as ondas Rayleigh e Love contribuem para o espectro H/V \citep{bonnefoy2006h} e a presença de ambos os tipos de onda de superfície devem ser considerados para algoritmos de inversão. 
+
+Portanto, a proporção entre as ondas Rayleigh e Love no campo de ondas de ruído deve ser inferida ou assumida antes da inversão. Para solucionar esse problema e minimizar a contribuição da onda Love para o componente horizontal da curva H/V, \cite{hobiger2009single} propôs uma técnica conhecida como RayDec para a estimativa da elipticidade da onda Rayleigh a partir de um único sensor de três componentes, utilizando a componente vertical como um gatilho mestre e empilhando um grande número de componentes horizontais. (ver detalhes \citealp{hobiger2009single}). 
+
+Utilizaram o RayDec para obter a curva de elipticidade para cada local de registro do ruído ambiental. O flanco direito da elipticidade é usado para análise de inversão \citep{hobiger2013ground}. No entanto, o flanco esquerdo é considerado  para colocar restrições na frequência de pico da curva de elipticidade (H/V). Usaram 30\% do comprimento da frequência de pico no flanco esquerdo e o dobro da frequência de pico no flanco direito. A parte restante da curva de elipticidade não é considerada para inversões. A tendência de aumento da velocidade da onda de cisalhamento e a espessura do pacote sedimentar (h) são entradas para a inversão da curva de elipticidade e os perfis de inversão são obtidos. (Fig. \ref{elipticidade}).
+
+\begin{figure}[!hbtp]
+  \begin{center}
+  
+  \includegraphics[scale=0.7]{Figures/fig7.png}
+  \end{center}
+  \caption{Perfis de inversão e valores desajustados para CLN4,5, CLN1, CLN6 e CLN7. O perfil do modelo desajustado mais baixo do VS é mostrado em branco para todas as estações.}
+  \label{elipticidade}
+\end{figure}
+\newpage
+
 % -----------------------------------------------
 
-\section{Discussões}
+\section{Discussões e Conclusões}
 
+O resultado obtido para as curvas H/V segue a tendência do ambiente geológico local (Colônia). Temos que as estações CLN4,5 e 6 mostraram a mesma frequência de ressonância fundamental que, com base nesse tipo de abordagem de interpretação, nos dá a espessura do solo não consolidado em torno de 400 m. \cite{riccomini2011colonia} mostra que a espessura do sedimento não consolidado encontra-se em torno de 340 m usando sísmica de reflexão, mas quase na mesma posição periférica da estrutura circular de Colônia. A espessura do sedimento em direção à borda da estrutura em forma de ``tigela" diminui, o que é identificável a partir da estação CLN3, que mostrou uma espessura de 15 metros. Como discutido anteriormente, uma inversão de elipticidade sozinha produz resultados ambíguos. Então, se forem adicionadas informações que restringem a estrutura da onda de cisalhamento superficial, a inversão de elipticidade pode então ser usada para restringir a parte mais profunda da estrutura. Contudo, no caso de leito rochoso muito profundo, a curva de dispersão experimental obtida mostra apenas uma parte de toda a curva de dispersão e não a curva completa devido ao ambiente geológico local. Para restringir a velocidade da onda de cisalhamento superficial nessas situações, pode-se adicionar à inversão descobrindo a tendência do aumento da velocidade da onda de cisalhamento com a profundidade a partir da utilização dessa curva de dispersão experimental de banda de frequência estreita pelo melhor ajuste dos valores de profundidade $V_s$. O que fornece informações sobre a tendência de aumento da velocidade a um metro de profundidade. A frequência fundamental junto com a tendência de aumento da onda s e a velocidade da onda s a um metro de profundidade são usadas para encontrar a espessura composta (h) do pacote de sedimentos. Todas essas informações podem ser fornecidas para a inversão da curva de elipticidade no final para obter o perfil 1D da velocidade da onda de cisalhamento.
+
+Portanto, utilizaremos essa técnica no projeto de pesquisa do mestrado com o objetivo de estudar a estrutura crustal sob a região da Província Mineral de Carajás e áreas adjacentes. Esperamos alcançar níveis de resolução suficientes para definir as interfaces entre a crosta e o manto (Moho), e eventualmente entre a litosfera e a astenosfera (LAB). Esperamos também que outras descontinuidades possam ser identificadas, como a entre a crosta superior e inferior (Conrad), ou outras mais rasas. 
+
+\newpage
 
 % -----------------------------------------------
-
-\section{Conclusões}
-\label{conclusions}
 
 
 %\begin{acknowledgements}

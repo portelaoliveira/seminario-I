@@ -1,25 +1,27 @@
 # Fdb version 3
-["bibtex APPGEO_104435"] 1674751988 "APPGEO_104435.aux" "APPGEO_104435.bbl" "APPGEO_104435" 1674752041
+["bibtex APPGEO_104435"] 1674761353 "APPGEO_104435.aux" "APPGEO_104435.bbl" "APPGEO_104435" 1674761426
   "./seg.bst" 1669435050 37652 3107d1462c353e8a0b53a1e2e0f4030d ""
-  "APPGEO_104435.aux" 1674752037 9130 ad11e3fce09b14dedfea5c404c913af1 "pdflatex"
-  "References.bib" 1674743647 9862 b7c81c98eea7341f4d0f82bada194ff3 ""
+  "APPGEO_104435.aux" 1674761414 10398 b7b84cf4d05e391daba5af7546bf0bb1 "pdflatex"
+  "References.bib" 1674758035 11988 644a1269875932ff6dd5772dda85201f ""
   (generated)
   "APPGEO_104435.bbl"
   "APPGEO_104435.blg"
-["pdflatex"] 1674752036 "d:/Template_Artigo/Artigo_uma_coluna/APPGEO_104435.tex" "APPGEO_104435.pdf" "APPGEO_104435" 1674752041
-  "APPGEO_104435.aux" 1674752037 9130 ad11e3fce09b14dedfea5c404c913af1 "pdflatex"
-  "APPGEO_104435.bbl" 1674751988 6660 7ebcd5db0ce0dec080bcf2542c8af05e "bibtex APPGEO_104435"
-  "APPGEO_104435.out" 1674752037 616 aa878e00394f61348e9b894b4a53075a "pdflatex"
+["pdflatex"] 1674761413 "d:/Template_Artigo/Artigo_uma_coluna/APPGEO_104435.tex" "APPGEO_104435.pdf" "APPGEO_104435" 1674761426
+  "APPGEO_104435.aux" 1674761414 10398 b7b84cf4d05e391daba5af7546bf0bb1 "pdflatex"
+  "APPGEO_104435.bbl" 1674761353 8052 19c7cf7014e50f4c3b41f0f763bab2ec "bibtex APPGEO_104435"
+  "APPGEO_104435.out" 1674761414 594 7dbad06558f09dc47b05adef966243ec "pdflatex"
   "Figures/fig1.png" 1673271791 384600 a4ee670a5d7fd5bfbd1f6d541d9654bf ""
   "Figures/fig2.png" 1673271878 638018 174b3bba6a44ba8812872a5e5a233fa9 ""
   "Figures/fig3.png" 1673274491 241704 0e9562598bb9da352ffcb124bf60eb70 ""
   "Figures/fig4.png" 1673275126 671542 c410f1c069c0738d58ad3a0e099dedfb ""
   "Figures/fig5.png" 1673275269 75520 353f9b128cab8c38234e94f727a0d9df ""
+  "Figures/fig7.png" 1673301858 129147 84ceeae328ae138abf4773e4899256c4 ""
   "Figures/ondas_rayleigh.png" 1674654469 486721 126ae311a200e146dedebd3cab103af6 ""
   "c:/msys64/mingw64/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1651868191 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/msys64/mingw64/share/texmf-dist/fonts/map/fontname/texfonts.map" 1651864852 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/msys64/mingw64/share/texmf-dist/fonts/tfm/jknappen/ec/tcbx1000.tfm" 1651946360 1536 30fde759286ded71559881bfa2623939 ""
   "c:/msys64/mingw64/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1651946360 1536 05df9db6aeccc4eea94fec15c9024f79 ""
+  "c:/msys64/mingw64/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1651946360 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "c:/msys64/mingw64/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1651946360 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "c:/msys64/mingw64/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1651946360 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
   "c:/msys64/mingw64/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1651946360 1004 54797486969f23fa377b128694d548df ""
@@ -80,6 +82,7 @@
   "c:/msys64/mingw64/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1651946360 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "c:/msys64/mingw64/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb" 1651868191 145408 43d44302ca7d82d487f511f83e309505 ""
   "c:/msys64/mingw64/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb" 1651868191 164227 3df942b4ff2124425d8fb1b6d3e01c7a ""
+  "c:/msys64/mingw64/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1651868191 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "c:/msys64/mingw64/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1651946360 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/msys64/mingw64/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1651946360 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "c:/msys64/mingw64/share/texmf-dist/tex/generic/babel-portuges/brazil.ldf" 1651867587 6591 308dec8ccec5a8d302be8a046d473dd3 ""
@@ -157,7 +160,7 @@
   "c:/msys64/mingw64/share/texmf-dist/web2c/texmf.cnf" 1669645265 40060 8b0294d678bcd94de47d9d33327e94dd ""
   "c:/msys64/mingw64/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1669647254 331977 63721f059874b27ff3c9e4da6d6b01fd ""
   "c:/msys64/mingw64/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1669647222 1345837 5958e5a460031a4a3fb03c2cd6f0d743 ""
-  "d:/Template_Artigo/Artigo_uma_coluna/APPGEO_104435.tex" 1674752032 18522 a852eb3a8ce13aef1c1231b587f8c2a9 ""
+  "d:/Template_Artigo/Artigo_uma_coluna/APPGEO_104435.tex" 1674761412 24345 f850776e36436803cc055ab0026d2ef7 ""
   "svglov3.clo" 1669435050 3696 b98636486931abc143bcf14934850e7b ""
   "svjour3.cls" 1669647941 47468 facb015c13afa73ab1048068cb604bf4 ""
   (generated)

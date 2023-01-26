@@ -21,8 +21,14 @@ Bonilla, L.~F., J.~H. Steidl, G.~T. Lindley, A.~G. Tumarkin, and R.~J.
   methods: Bulletin of the Seismological Society of America, {\bf 87},
   710--730.
 
-\bibitem[Bonnefoy-Claudet et~al., 2006]{bonnefoy2006nature}
-Bonnefoy-Claudet, S., F. Cotton, and P.-Y. Bard,  2006, The nature of noise
+\bibitem[Bonnefoy-Claudet et~al., 2006a]{bonnefoy2006h}
+Bonnefoy-Claudet, S., C. Cornou, P.-Y. Bard, F. Cotton, P. Moczo, J. Kristek,
+  and D. F{\"a}h,  2006a, H/v ratio: A tool for site effects evaluation.
+  results from 1-d noise simulations: Geophysical Journal International, {\bf
+  167}, 827--837.
+
+\bibitem[Bonnefoy-Claudet et~al., 2006b]{bonnefoy2006nature}
+Bonnefoy-Claudet, S., F. Cotton, and P.-Y. Bard,  2006b, The nature of noise
   wavefield and its applications for site effects studies: A literature review:
   Earth-Science Reviews, {\bf 79}, 205--227.
 
@@ -38,6 +44,18 @@ Field, E., and K. Jacob,  1993, The theoretical response of sedimentary layers
 Herrmann, R.~B.,  2013, Computer programs in seismology: An evolving tool for
   instruction and research: Seismological Research Letters, {\bf 84},
   1081--1088.
+
+\bibitem[Hobiger et~al., 2009]{hobiger2009single}
+Hobiger, M., P.-Y. Bard, C. Cornou, and N. Le~Bihan,  2009, Single station
+  determination of rayleigh wave ellipticity by using the random decrement
+  technique (raydec): Geophysical Research Letters, {\bf 36}.
+
+\bibitem[Hobiger et~al., 2013]{hobiger2013ground}
+Hobiger, M., C. Cornou, M. Wathelet, G.~D. Giulio, B. Knapmeyer-Endrun, F.
+  Renalier, P.-Y. Bard, A. Savvaidis, S. Hailemikael, B.~N. Le, et~al.,  2013,
+  Ground structure imaging by inversions of rayleigh wave ellipticity:
+  sensitivity analysis and application to european strong-motion sites:
+  Geophysical Journal International, {\bf 192}, 207--229.
 
 \bibitem[Konno and Ohmachi, 1998]{konno1998ground}
 Konno, K., and T. Ohmachi,  1998, Ground-motion characteristics estimated from
@@ -110,6 +128,15 @@ Riepl, J., P.-Y. Bard, D. Hatzfeld, C. Papaioannou, and S. Nechtschein,  1998,
 
 \bibitem[Sadowski, 1974]{sadowski1974tectonica}
 Sadowski, G.,  1974, Tect{\^o}nica da serra de cubat{\~a}o: S{\~a}o Paulo.
+
+\bibitem[Sambridge, 1999]{sambridge1999geophysical}
+Sambridge, M.,  1999, Geophysical inversion with a neighbourhood algorithm—i.
+  searching a parameter space: Geophysical journal international, {\bf 138},
+  479--494.
+
+\bibitem[Sambridge and Mosegaard, 2002]{sambridge2002monte}
+Sambridge, M., and K. Mosegaard,  2002, Monte carlo methods in geophysical
+  inverse problems: Reviews of Geophysics, {\bf 40}, 3--1.
 
 \bibitem[Tanimoto and Rivera, 2008]{tanimoto2008zh}
 Tanimoto, T., and L. Rivera,  2008, The zh ratio method for long-period seismic
