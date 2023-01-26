@@ -1,6 +1,13 @@
 \begin{thebibliography}{}
 \itemsep0pt
 
+\bibitem[Acerra et~al., 2004]{acerra2004guidelines}
+Acerra, C., G. Aguacil, A. Anastasiadis, K. Atakan, R. Azzara, P.-Y. Bard, R.
+  Basili, E. Bertrand, B. Bettig, F. Blarel, et~al.,  2004, Guidelines for the
+  implementation of the h/v spectral ratio technique on ambient vibrations
+  measurements, processing and interpretation: European
+  Commission--EVG1-CT-2000-00026 SESAME.
+
 \bibitem[Berbellini et~al., 2019]{berbellini2019constraining}
 Berbellini, A., M. Schimmel, A.~M. Ferreira, and A. Morelli,  2019,
   Constraining s-wave velocity using rayleigh wave ellipticity from
@@ -62,11 +69,21 @@ Nakamura, Y.,  1989, A method for dynamic characteristics estimation of
   subsurface using microtremor on the ground surface: Railway Technical
   Research Institute, Quarterly Reports, {\bf 30}.
 
+\bibitem[Park et~al., 1999]{park1999multichannel}
+Park, C.~B., R.~D. Miller, and J. Xia,  1999, Multichannel analysis of surface
+  waves: Geophysics, {\bf 64}, 800--808.
+
 \bibitem[Parolai et~al., 2002]{parolai2002new}
 Parolai, S., P. Bormann, and C. Milkereit,  2002, New relationships between vs,
   thickness of sediments, and resonance frequency calculated by the h/v ratio
   of seismic noise for the cologne area (germany): Bulletin of the
   seismological society of America, {\bf 92}, 2521--2527.
+
+\bibitem[Parolai et~al., 2005]{parolai2005joint}
+Parolai, S., M. Picozzi, S. Richwalski, and C. Milkereit,  2005, Joint
+  inversion of phase velocity dispersion and h/v ratio curves from seismic
+  noise recordings using a genetic algorithm, considering higher modes:
+  Geophysical research letters, {\bf 32}.
 
 \bibitem[Poggi and F{\"a}h, 2010]{poggi2010estimating}
 Poggi, V., and D. F{\"a}h,  2010, Estimating rayleigh wave particle motion from

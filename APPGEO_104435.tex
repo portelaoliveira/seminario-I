@@ -53,7 +53,7 @@
 %
 \begin{document}
 
-\title{Tecnica $\sfrac{H}{V}$ para determinação da elipticidade da onda Rayleigh}
+\title{Técnica $\sfrac{H}{V}$ para determinação da elipticidade da onda Rayleigh}
 \subtitle{}
 
 %\titlerunning{Dielectric permittivity effects in the detection of tree roots using GPR}        % if too long for running head
@@ -113,9 +113,9 @@ A técnica H/V é empregada no sítio em Colônia por causa de sua configuraçã
 
 \section{Geologia do local}
 
-A estrutura da Colônia está localizada na periferia sul da cidade de São Paulo, Brasil (Fig \ref{geologia}). Tem uma geometria circular (diâmetro de 3,6 km) compreendendo um anel anular de colinas que circundam uma depressão. A estrutura é majoritariamente um pântano. Sua origem é atribuída a um impacto de meteorito \citep{riccomini1989colonia}. A estrutura é formada em rochas do embasamento cristalino de idade neoproterozóica e a depressão é preenchida principalmente por sedimentos ricos em matéria orgânica de idade quaternária. Os principais tipos rochosos do embasamento compreendem xisto, quartzito, gnaisse, migmatito, diorito, quartzo-diorito \citep{sadowski1974tectonica}.
+A estrutura da Colônia está localizada na periferia sul da cidade de São Paulo, Brasil (Fig. \ref{geologia}). Tem uma geometria circular (diâmetro de 3,6 km) compreendendo um anel anular de colinas que circundam uma depressão. A estrutura é majoritariamente um pântano. Sua origem é atribuída a um impacto de meteorito \citep{riccomini1989colonia}. A estrutura é formada em rochas do embasamento cristalino de idade neoproterozóica e a depressão é preenchida principalmente por sedimentos ricos em matéria orgânica de idade quaternária. Os principais tipos rochosos do embasamento compreendem xisto, quartzito, gnaisse, migmatito, diorito, quartzo-diorito \citep{sadowski1974tectonica}.
 
-A profundidade total, estimada por investigação de reflexão sísmica (Fig \ref{geologia}), que não atingiu a parte central da estrutura \citep{riccomini2011colonia} é de cerca de 340 m (preenchimento sedimentar mais brecha). A função de velocidade de empilhamento nesta investigação (Fig \ref{fun_vel}) mostrou um incremento contínuo da velocidade da onda P com a profundidade, começando de aproximadamente 1500 m/s para 2150 m/s, o que é consistente com o aumento esperado da compactação dos sedimentos.
+A profundidade total, estimada por investigação de reflexão sísmica (Fig. \ref{geologia}), que não atingiu a parte central da estrutura \citep{riccomini2011colonia} é de cerca de 340 m (preenchimento sedimentar mais brecha). A função de velocidade de empilhamento nesta investigação (Fig. \ref{fun_vel}) mostrou um incremento contínuo da velocidade da onda P com a profundidade, começando de aproximadamente 1500 m/s para 2150 m/s, o que é consistente com o aumento esperado da compactação dos sedimentos.
 
 \begin{figure}[!hbtp]
   \begin{center}
@@ -132,7 +132,7 @@ A profundidade total, estimada por investigação de reflexão sísmica (Fig \re
   
   \includegraphics[scale=0.5]{Figures/fig2.png}
   \end{center}
-  \caption{Figura com painel (A) e (B), onde a função de velocidade de empilhamento cdp é adquirido a 750 ms da investigação de reflexão sísmica de Colonia (onda P) (modificado de \citealp{riccomini2011colonia}).
+  \caption{Figura com painel (A) e (B), onde a função de velocidade de empilhamento cdp é adquirido a 750 ms da investigação de reflexão sísmica de Colônia (onda P) (modificado de \citealp{riccomini2011colonia}).
   }
   \label{fun_vel}
 \end{figure}
@@ -237,9 +237,43 @@ O primeiro termo é o desajuste entre os dados observados e previstos, o segundo
 \section{Resultados}
 \label{results}
 
-A partir de medidas do espectro H/V (componentes horizontais pelas verticais), para diferentes
-períodos, espera-se construir a curva de elipticidade média para as estações pertencentes ao arranjo. A curva
-de elipticidade será invertida para obtenção do modelo 1D de velocidade da onda S em relação à profundidade, logo abaixo do arranjo das estações (no centro do arranjo). Esse modelo pode ser interpretado em termos das descontinuidades existentes sob o arranjo das estações.
+As técnicas de curva H/V são fortemente condicionadas pelas propriedades (isto é, contraste de profundidade e impedância) da interface entre o sedimento não consolidado e o leito rochoso \citep{parolai2005joint}, embora sejam pouco informativas sobre a velocidade da onda s das camadas sedimentares. Por outro lado, as curvas de dispersão provenientes da técnica de matriz (ou seja, MASW, análise multicanal de ondas de superfície \citealp{park1999multichannel}) restringem principalmente a estrutura de velocidade da onda s do solo subterrâneo. Porém, a curva de dispersão fornece informações incertas sobre a subsuperfície mais profunda, especialmente abaixo da frequência fundamental do local devido ao efeito de filtragem da média; portanto, quando H/V ou curvas de dispersão são usadas individualmente para a recuperação da estrutura da subsuperfície, há um \textit{trade-off} solucionável entre os parâmetros do modelo (velocidade e espessura das camadas do solo) que dificulta os resultados da análise de inversão.
+
+Além disso, adquirir MASW e gravação de ruído ambiental no mesmo local pode não ser possível devido a alguns problemas locais em configurações de campo, como acessibilidade, como na estrutura da Colônia, onde a maior parte da estrutura é coberta por vegetação densa e água, dificultando na gravação do MASW e ruído ambiental nos mesmos locais, para mapear a estimativa da espessura do pacote de sedimentos. Dessa forma, abordaram que a tendência média de aumento da velocidade da onda de cisalhamento com a profundidade pode ser obtida a partir da inversão direta da curva de dispersão, ou seja, a abordagem foi que em qualquer local acessível da estrutura uma curva de dispersão experimental pode ser obtida através do MASW (Fig. \ref{geologia}). 
+
+Para a estimativa da curva H/V, precisaram do registro do ruído ambiental em três componentes (dois horizontais e um vertical) que obtiveram a partir de 7 medições do ruído ambiental em 6 locais diferentes mostrados na (Fig. \ref{stations}) com um sismômetro de 3 componentes de banda larga \textit{Nanometrics Trillium} compacto de 120 s. Realizaram a gravação do ruído ambiental por 5 horas em cinco locais, enquanto que nas estações CLN4 e CLN5 a gravação foi de 24 horas (Fig. \ref{stations}). A gravação foi aumentada para evitar ruído cultural, pois havia atividade agrícola próxima.
+
+A gravação do ruído ambiental foi feita seguindo as diretrizes desenvolvidas nas recomendações do \cite{acerra2004guidelines}. Para obter a frequência fundamental do local foi processada uma janela de gravação de uma hora e seguiu-se a condição de confiabilidade proposta pelo \cite{acerra2004guidelines} para a curva H/V e pico, (Fig. \ref{hv_curva}) indica as curvas H/V de todas as estações.
+
+\begin{figure}[!hbtp]
+  \begin{center}
+  
+  \includegraphics[scale=0.5]{Figures/fig3.png}
+  \end{center}
+  \caption{Comportamento das ondas Rayleigh na superfície terrestre \citep{de2009filtragem}.}
+  \label{stations}
+\end{figure}
+\newpage
+
+\begin{figure}[!hbtp]
+  \begin{center}
+  
+  \includegraphics[scale=0.5]{Figures/fig4.png}
+  \end{center}
+  \caption{Comportamento das ondas Rayleigh na superfície terrestre \citep{de2009filtragem}.}
+  \label{curva_disp}
+\end{figure}
+\newpage
+
+\begin{figure}[!hbtp]
+  \begin{center}
+  
+  \includegraphics[scale=0.5]{Figures/fig5.png}
+  \end{center}
+  \caption{Comportamento das ondas Rayleigh na superfície terrestre \citep{de2009filtragem}.}
+  \label{hv_curva}
+\end{figure}
+\newpage
 
 %\subsection{Experimental Data}
 

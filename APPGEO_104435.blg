@@ -4,45 +4,45 @@ The top-level auxiliary file: APPGEO_104435.aux
 The style file: seg.bst
 Database file #1: References.bib
 Warning--empty journal in de2009filtragem
-You've used 22 entries,
+You've used 25 entries,
             2639 wiz_defined-function locations,
-            836 strings with 10668 characters,
-and the built_in function-call counts, 8970 in all, are:
-= -- 979
-> -- 371
+            853 strings with 11491 characters,
+and the built_in function-call counts, 10386 in all, are:
+= -- 1127
+> -- 470
 < -- 10
-+ -- 136
-- -- 124
-* -- 799
-:= -- 1559
-add.period$ -- 22
-call.type$ -- 22
-change.case$ -- 172
-chr.to.int$ -- 22
-cite$ -- 23
-duplicate$ -- 299
-empty$ -- 619
-format.name$ -- 156
-if$ -- 1801
++ -- 172
+- -- 160
+* -- 931
+:= -- 1816
+add.period$ -- 25
+call.type$ -- 25
+change.case$ -- 204
+chr.to.int$ -- 25
+cite$ -- 26
+duplicate$ -- 339
+empty$ -- 691
+format.name$ -- 195
+if$ -- 2079
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 22
-newline$ -- 70
-num.names$ -- 66
-pop$ -- 131
+missing$ -- 25
+newline$ -- 79
+num.names$ -- 75
+pop$ -- 160
 preamble$ -- 1
-purify$ -- 172
+purify$ -- 204
 quote$ -- 0
-skip$ -- 225
+skip$ -- 257
 stack$ -- 0
-substring$ -- 703
-swap$ -- 17
+substring$ -- 764
+swap$ -- 19
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 132
+type$ -- 150
 warning$ -- 1
-while$ -- 76
+while$ -- 84
 width$ -- 0
-write$ -- 239
+write$ -- 271
 (There was 1 warning)
