@@ -85,8 +85,11 @@
 
 \begin{abstract}
 
-\lipsum[1]
-\keywords{%Sismologia \and Ondas Rayleigh \and Arranjos sísmicos 
+% \lipsum[1]
+
+Muitas técnicas geofísicas podem ser utilizadas para obter o perfil de velocidade da onda de cisalhamento para aplicação próxima à superfície. Porém, mais recentemente vem sendo utilizada uma técnica em que é realizada uma inversão conjunta da curva da razão espectral H/V e da curva de dispersão extraída a partir da análise multicanal das ondas de superfície (MASW). Contudo, em alguns casos, para obter a curva de dispersão na faixa de frequência para aplicação na engenharia (1 a 30 Hz) torna-se mais difícil. Nesse caso, a curva de dispersão pode ser indiretamente invertida de todos os pontos disponíveis da curva de frequência da onda Rayleigh para velocidade e profundidade da onda de cisalhamento. Como resultado, temos uma série de valores (velocidade e profundidade da onda s) através dos quais uma tendência de melhor ajuste pode ser passado. O melhor ajuste nos dá uma ideia da taxa de aumento da velocidade da onda de cisalhamento com a profundidade e a velocidade da onda de cisalhamento a um metro de profundidade. Com essa informação, podemos posteriormente utilizar para inverter a curva de elipticidade da onda de Rayleigh.  
+
+\keywords{Sismologia \and Ondas Rayleigh \and Arranjos sísmicos \and Razão $\sfrac{H}{V}$
 }
 % \PACS{PACS code1 \and PACS code2 \and more}
 % \subclass{MSC code1 \and MSC code2 \and more}
@@ -162,7 +165,7 @@ Essa técnica, também chamada de Razão H/V da onda Rayleigh \citep{workman2017
 
 A partir de medidas do espectro H/V para diferentes períodos, é construída a curva de elipticidade média para as estações pertencentes ao arranjo. A curva de elipticidade é invertida para obtenção do modelo 1D de velocidade da onda S em relação à profundidade, logo abaixo do arranjo das estações (no centro do arranjo). Esse modelo pode ser interpretado em termos das descontinuidades existentes sob o arranjo das estações.
 
-Para a inversão da elipticidade e para amostrar o espaço de parâmetros, utiliza-se o \textit{eighborhood algorithm} (NA) \citep{wathelet2008array} que é um método livre de derivadas em comparação com o método linearizado \citep{menke1989geophysical}. Este método (NA) auto-adaptativo amostra o espaço do modelo para encontrar um conjunto de modelos que melhor se ajusta aos dados reais. Para cada modelo amostrado, o algoritmo de inversão compara dados previstos com dados reais (usando a abordagem de modo normal de \cite{herrmann2013computer} para calcular curvas de elipticidade e avaliar uma função de custo). 
+Para a inversão da elipticidade e para amostrar o espaço de parâmetros, utilizou-se o \textit{eighborhood algorithm} (NA) \citep{wathelet2008array} que é um método livre de derivadas em comparação com o método linearizado \citep{menke1989geophysical}. Este método (NA) auto-adaptativo amostra o espaço do modelo para encontrar um conjunto de modelos que melhor se ajusta aos dados reais. Para cada modelo amostrado, o algoritmo de inversão compara dados previstos com dados reais (usando a abordagem de modo normal de \cite{herrmann2013computer} para calcular curvas de elipticidade e avaliar uma função de custo). 
 
 Dessa forma, o cálculo da função de custo leva em consideração o desajuste entre os dados reais e os valores previstos e geralmente também contém um termo para regularizar as soluções. Um termo de regularização é necessário quando a parametrização é feita de muitas camadas finas para promover os modelos mais suaves. A função custo é definida como:
 
